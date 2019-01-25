@@ -1,0 +1,506 @@
+body {
+    background-image: url(../img/ocean1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+    
+.projects h1 {
+    margin-top: 0;
+}
+
+.col-md-6 {}
+
+div#projects .col-md-6 img {
+    max-width: -webkit-fill-available;
+    box-shadow: 0px 1px 1px 1px #000;
+}
+    
+.footer {
+    background-color: rgba(42, 42, 42, 0.89) !important;
+    width: 100%;
+    height: 51px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+    
+.projects h1 {
+    font-size: 43px;
+    color: #a9faffd9;
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+    
+.projects {
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0.77) !important;
+    height: 76.6vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    
+.projects h1 {
+    margin-top: 0;
+}
+    
+.footer li.menu-list-item {
+    font-size: 10px;
+    color: #414141 !important;
+}
+    
+.footer a:hover {
+    text-decoration: none;
+    color: #e9fbfd;
+    font-size: 18px;
+}
+
+.footer a {
+    color: #9ce1e5;
+    transition: 2s;
+    }
+
+.footer .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: 2s;
+}
+    
+li.menu-list-item {
+    display: inline-block;
+    padding-left: 25px;
+    }
+
+.projects h1 {
+    margin-top: 0;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+.row {
+    width: 95%;
+    margin: auto !important;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.projects h1 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.hire {
+    background-image: url(../img/ocean1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 65vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img {
+    max-width: 86px;
+    /* padding-left: 25px; */
+    transition: 2s;
+    margin: 6px 50px;
+}
+/*
+.logo > img:hover {
+    max-width: 90px;
+}*/
+
+.header a:hover {
+    padding: 30px 30px;
+    background-color: #000000b8;
+    text-decoration: none;
+    color: #8bc2c5;
+    border: none;
+}
+
+.header a {
+    color: #000000;
+    border: solid 1.5px #000000;
+    padding: 20px 30px;
+    transition: 2s;
+    box-shadow: 1px 1px 10px 0px #000;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.footer li.menu-list-item {
+    font-size: 10px;
+    /* color: #414141 !important; */
+}
+
+.footer p {
+    color: rgb(139, 194, 197);
+    font-size: 15px;
+    letter-spacing: 4px;
+    transition: 2s;
+}
+
+li.menu-list-item {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.projects .para {
+    color: #c3c2c2fc;
+    font-size: 16px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid rgba(42, 42, 42, 0.77);
+    border-radius: 50%;
+    border-top: 16px solid #47d5de;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0; } 
+    to { bottom:0px; opacity:1; }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0; } 
+    to{ bottom:0; opacity:1; }
+  }
+  
+  #myDiv {
+    display: none;
+  }
+
+  /*Contact Me section Button used to open the chat form - fixed at the bottom of the page */
+  .open-button {
+    background-color: rgb(0, 0, 0);
+    color: #c3c2c2fc;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    text-align: left;
+}
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    top: 15.2%;
+    width: 100%;
+    right: 15px;
+    z-index: 9;
+}
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 75%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(0, 22, 27, 0.53);
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #dddddd;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #fbfbfb;
+    color: #000000;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    width: 49.8%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: #88bfc1;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  /* Send a message from the form to the mobile phone */
+  #container {
+    width: 600px;
+    background: #fff;
+    color: #555;
+    border: 3px solid #ccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    border-top: 3px solid #ddd;
+    padding: 1em 2em;
+    margin: 0 auto;
+    -webkit-box-shadow: 3px 7px 5px #000;
+    -moz-box-shadow: 3px 7px 5px #000;
+    -ms-box-shadow: 3px 7px 5px #000;
+    box-shadow: 3px 7px 5px #000;
+   }
+    
+   ul {
+    list-style: none;
+    padding: 0;
+   }
+    
+   ul > li {
+    padding: 0.12em 1em
+   }
+    
+   label {
+    display: block;
+    float: left;
+    width: 130px;
+   }
+    
+   input, textarea {
+    font-family: Georgia, Serif;
+   }
+
+   /*sidebar chat*/
+   #mySidenav .open-button0 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 36.5% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button:hover {
+  right: 0;
+}
+
+#mySidenav .open-button1 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 31.5% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button1:hover {
+  right: 0;
+}
+
+#mySidenav .open-button2 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 25.8% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button2:hover {
+  right: 0;
+}
+
+#mySidenav .open-button3 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 20.6% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button3:hover {
+  right: 0;
+}
+
+#mySidenav .open-button4 {
+    position: fixed;
+    right: -176px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 15.3% 0;
+    width: 215px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button4:hover {
+  right: 0;
+}
+
+#mySidenav .open-button5 {
+    position: fixed;
+    right: -176px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 10% 0;
+    width: 215px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button5:hover {
+  right: 0;
+}
+
+/*typer*/
+#app > h3 {
+    color: rgb(65, 232, 238) !important;
+    font-size: 18px !important;
+}
+
+/* Main menu Flipping Card */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    z-index: 2;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+  }

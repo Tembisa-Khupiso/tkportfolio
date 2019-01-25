@@ -1,0 +1,176 @@
+body {
+    background-image: url(../img/ocean1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 150% 0%;
+    background-size: cover;
+    width: 100%;
+}
+
+.about {
+    background-image: url(../img/Tembisa.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 150% 0%;
+    background-size: cover;
+    width: 100%;
+    height: 76.6vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about .row {
+    width: 90%;
+    margin: auto !important;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    font-size: 43px;
+    text-shadow: 3px 0px 1px #040404;
+    color: #040404;
+    color: #85bcbf;
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.half p {
+    color: #7eb6b8;
+    text-align: left;
+}
+
+.col-md-12 {
+    width: 100%!important;
+    margin: auto !important;
+    background-color: rgba(42, 42, 42, 0.77);
+}
+
+.about > p {
+    background-color: #e8e2e442;
+    box-shadow: none;
+    margin-top: 100px;
+}
+
+.about-header {
+    background: #2a2a2a;
+    width: 100%;
+    height: 83px;
+    z-index: 10;
+}
+
+ /*sidebar chat*/
+ #mySidenav .open-button0 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 36.5% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button:hover {
+  right: 0;
+}
+
+#mySidenav .open-button1 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 31.5% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button1:hover {
+  right: 0;
+}
+
+#mySidenav .open-button2 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 25.8% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button2:hover {
+  right: 0;
+}
+
+#mySidenav .open-button3 {
+    position: fixed;
+    right: -146px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 20.6% 0;
+    width: 185px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button3:hover {
+  right: 0;
+}
+
+#mySidenav .open-button4 {
+    position: fixed;
+    right: -176px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 15.3% 0;
+    width: 215px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button4:hover {
+  right: 0;
+}
+
+#mySidenav .open-button5 {
+    position: fixed;
+    right: -176px;
+    transition: 0.3s;
+    padding: 15px;
+    margin: 10% 0;
+    width: 215px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000fc;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #9be0e4;
+}
+
+#mySidenav .open-button5:hover {
+  right: 0;
+}
