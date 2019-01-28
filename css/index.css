@@ -40,7 +40,7 @@ body {
     .hero {
         width: 100%;
         background-color: rgba(42, 42, 42, 0.77) !important;
-        height: 76.6vh;
+        height: 80.6vh;
         display: flex;
         overflow: hidden;
         justify-content: center;
@@ -53,6 +53,10 @@ body {
         margin-top: 0px;
     }
     
+    .hero h1 {
+        color: #46a3ab;
+        }
+
     .footer li.menu-list-item {
         font-size: 10px;
        color: #414141 !important;
@@ -335,7 +339,7 @@ li.menu-list-item {
     font-size: 20px;
     color: #000000fc;
     border-radius: 5px 0px 0px 5px;
-    background-color: #9be0e4;
+    background-color: #47b9c3;
 }
 
 #mySidenav .open-button:hover {
@@ -354,7 +358,7 @@ li.menu-list-item {
     font-size: 20px;
     color: #000000fc;
     border-radius: 5px 0px 0px 5px;
-    background-color: #9be0e4;
+    background-color: #47b9c3;
 }
 
 #mySidenav .open-button1:hover {
@@ -373,7 +377,7 @@ li.menu-list-item {
     box-shadow: -5px 5px 10px -2px #000;
     color: #000000fc;
     border-radius: 5px 0px 0px 5px;
-    background-color: #9be0e4;
+    background-color: #47b9c3;
 }
 
 #mySidenav .open-button2:hover {
@@ -392,7 +396,7 @@ li.menu-list-item {
     font-size: 20px;
     color: #000000fc;
     border-radius: 5px 0px 0px 5px;
-    background-color: #9be0e4;
+    background-color: #47b9c3;
 }
 
 #mySidenav .open-button3:hover {
@@ -411,7 +415,7 @@ li.menu-list-item {
     box-shadow: -5px 5px 10px -2px #000;
     color: #000000fc;
     border-radius: 5px 0px 0px 5px;
-    background-color: #9be0e4;
+    background-color: #47b9c3;
 }
 
 #mySidenav .open-button4:hover {
@@ -430,7 +434,7 @@ li.menu-list-item {
     font-size: 20px;
     color: #000000fc;
     border-radius: 5px 0px 0px 5px;
-    background-color: #9be0e4;
+    background-color: #47b9c3;
 }
 
 #mySidenav .open-button5:hover {
