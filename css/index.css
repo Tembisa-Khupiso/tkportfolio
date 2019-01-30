@@ -40,7 +40,7 @@ body {
     .hero {
         width: 100%;
         background-color: rgba(42, 42, 42, 0.77) !important;
-        height: 80.6vh;
+        height: 76.6vh;
         display: flex;
         overflow: hidden;
         justify-content: center;
