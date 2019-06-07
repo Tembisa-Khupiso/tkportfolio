@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  background-image: url(../img/bg_blck.png);
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the header */
+header {
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  padding: 0px;
+}
+
+/* Style the list inside the menu */
+nav a {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  font-family: auto;
+  background-color: #232222;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  padding: 0;
+  margin: 0 !important;
+}
+
+.logo img {
+  width: 15%;
+}
+
+.logo {
+  text-align: left;
+}
+
+section {
+  width: 95%;
+  margin: auto;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 56vh;
+}
+
+.col-sm-8.nav {
+  display: block;
+  height: 60px;
+  float: right;
+  margin-top: 0px !important;
+  width: 60% !important;
+}
+
+.nav a {
+  color: #fff;
+  font-family: serif;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+p.copyright {
+  font-size: 16px;
+  font-family: serif;
+  letter-spacing: 3px;
+}
+
+p.paragraph {
+  font-size: 16px;
+  color: #b3b3b3;
+  font-family: serif;
+  letter-spacing: 2px;
+}
+
+.col-sm-8 {text-align: right;width: 70% !important;}
+
+h1.title {
+  color: #fff !important;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.col-sm-6.cntct1 {
+  text-align: center;
+}
+
+.col-sm-3.cntct2 {
+  text-align: left;
+  padding: 25px 0;
+}
+
+.col-sm-3.cntct3 {
+  text-align: center;
+  padding: 25px 0 !important;
+}
+
+.cv img {
+  margin: 20px 0;
+  max-width: 60%;
+}
+
+a.typewrite {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+   /* For Safari 3.1 to 6.0 */
+  font-size: 22px;
+  font-weight: 600;
+}
+
+a.typewrite.home {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+   /* For Safari 3.1 to 6.0 */
+  font-size: 27px;
+  font-weight: 600;
+}
+
+section.contact {
+    height: 60vh;
+    display: block !important;
+}
+
+section.about {
+  height: 60vh;
+}
+
+a:focus, a:hover {
+  color: #ffffff !important;
+}
+
+#custom-transitions img {
+  max-width: 24%;
+}
+
+a.typewrite.cntct {
+    text-align: center;
+    font-size: 15px;
+}
+
+p.para {
+    text-align: center;
+    margin-top: 0px !important;
+}
+
+p.para-cntct {
+    font-size: 17px !important;
+    padding: 4px;
+    color: #888;
+}
+
+p.para-cntct a {
+  color: #fff !important;
+}
+
+p.para-address {
+  font-size: 17px !important;
+  padding: 4px;
+  color: #888;
+}
+
+.col-sm-10.titl {
+  float: right;
+  width: 50% !important;
+}
+
+b {
+  font-size: 25px !important;
+  font-weight: 600;
+  color: #fff;
+}
+.col-sm-12.bottm {
+  width: 100%;
+  text-align: center !important;
+}
+
+.col-sm-4.work img {
+  max-width: 100% !important;
+  margin-bottom: 20px;
+}
+
+.col-sm-4.work {
+    padding: 15px 15px;
+    text-align: center;
+}
+
+p.wrk {
+  font-size: 18px;
+  color: #fff;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
