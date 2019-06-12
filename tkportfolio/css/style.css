@@ -93,7 +93,7 @@ section {
   height: 60px;
   float: right;
   margin-top: 0px !important;
-  width: 60% !important;
+  width: 66% !important;
 }
 
 .nav a {
@@ -101,7 +101,7 @@ section {
   font-family: serif;
   font-size: 15px;
   font-weight: normal;
-  padding: 14px;
+  padding: 5px;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -149,7 +149,6 @@ h1.title {
 .cv img {
   margin: 20px 0;
   max-width: 60%;
-  box-shadow: -1px 1px 1px 13px #565656 !important;
 }
 
 a.typewrite {
