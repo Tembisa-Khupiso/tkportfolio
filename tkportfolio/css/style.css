@@ -149,7 +149,7 @@ h1.title {
 .cv img {
   margin: 20px 0;
   max-width: 60%;
-  box-shadow: -1px 1px 1px 35px #292929 !important;
+  box-shadow: -1px 1px 1px 13px #565656 !important;
 }
 
 a.typewrite {
