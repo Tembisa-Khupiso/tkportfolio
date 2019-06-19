@@ -75,16 +75,12 @@ p {
 section {
   width: 95%;
   margin: 12.5% auto !important;
-  justify-content: center;
-  align-items: center;
 }
 
 section.hom {
   width: 95%;
   margin: 25.9% auto !important;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 30px;
+  padding: 0px 30px !important;
 }
 
 .col-sm-8.nav {
