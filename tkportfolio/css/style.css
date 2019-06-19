@@ -75,6 +75,13 @@ section {
   align-items: center;
 }
 
+section.hom {
+  width: 95%;
+  margin: 12.5% auto !important;
+  justify-content: center;
+  align-items: center;
+}
+
 .col-sm-8.nav {
   display: block;
   height: 60px;
