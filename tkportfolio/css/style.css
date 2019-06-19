@@ -248,6 +248,7 @@ p.wrk {
 
 .fa {
   color: #f56016 !important;
+  font-size: 18px !important;
 }
 
 .region-utility a:hover {
@@ -284,7 +285,7 @@ p.wrk {
   height: 33px;
   margin: auto;
   padding: 0;
-  width: 95%;
+  width: 94%;
 }
 
 .nav>li>a {
@@ -313,7 +314,7 @@ header {
 }
 
 .active {
-  color: #313131 !important;
+  color: #bfbfbf !important;
 }
 
 .active:hover {
