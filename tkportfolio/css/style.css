@@ -85,18 +85,23 @@ section {
   width: 66% !important;
 }
 
+.nav a:hover {
+  background-color: #f96e29;
+  color: #fff;
+  padding: 40px;
+  margin-top: -2px;
+  text-decoration: none !important;
+  transition: 1s linear;
+}
+
 .nav a {
   color: #ea4e00;
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 900;
-  padding: 5px;
+  padding: 40px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  text-decoration: none !important;
-}
-
-.nav a:hover {
   text-decoration: none !important;
 }
 
