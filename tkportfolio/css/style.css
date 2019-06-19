@@ -70,7 +70,7 @@ p {
 
 section {
   width: 95%;
-  margin: 12.5% auto;
+  margin: 12.5% auto !important;
   justify-content: center;
   align-items: center;
 }
