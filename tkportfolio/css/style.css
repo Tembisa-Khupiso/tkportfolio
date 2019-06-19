@@ -108,7 +108,7 @@ section.hom {
 .nav a:hover {
     background-color: #f96e29;
     color: #fff !important;
-    padding: 30px 20px 39px 20px;
+    padding: 30px 20px 29px 20px !important;
     transition: 1s ease-in-out;
 }
 
