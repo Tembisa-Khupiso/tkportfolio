@@ -68,6 +68,10 @@ p {
   text-align: left;
 }
 
+.col-sm-8 {
+    float: right;
+}
+
 section {
   width: 95%;
   margin: 12.5% auto !important;
@@ -77,7 +81,7 @@ section {
 
 section.hom {
   width: 95%;
-  margin: 12.5% auto !important;
+  margin: 25.9% auto !important;
   justify-content: center;
   align-items: center;
 }
