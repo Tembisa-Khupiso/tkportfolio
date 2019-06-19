@@ -285,7 +285,7 @@ p.wrk {
   height: 33px;
   margin: auto;
   padding: 0;
-  width: 93%;
+  width: 93% !important;
 }
 
 .nav>li>a {
