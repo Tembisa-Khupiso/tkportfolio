@@ -84,6 +84,7 @@ section.hom {
   margin: 25.9% auto !important;
   justify-content: center;
   align-items: center;
+  padding: 0px 30px;
 }
 
 .col-sm-8.nav {
@@ -108,7 +109,7 @@ section.hom {
 .nav a:hover {
     background-color: #f96e29;
     color: #fff !important;
-    padding: 30px 20px 29px 20px !important;
+    padding: 30px 20px 39px 20px;
     transition: 1s ease-in-out;
 }
 
