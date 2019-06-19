@@ -194,7 +194,7 @@ p.para a {
 
 p.para-cntct {
     font-size: 15px !important;
-    padding: 6px 0px 6px 20px;
+    padding: 6px 0px 6px 25px;
     color: #313131;
 }
 
@@ -204,7 +204,7 @@ p.para-cntct a {
 
 p.para-address {
   font-size: 15px !important;
-  padding: 6px 0px 6px 20px;
+  padding: 6px 0px 6px 25px;
   color: #313131;
 }
 
@@ -213,6 +213,7 @@ p.para-title {
   padding: 2px;
   color: #313131;
   margin-top: 10px !important;
+  text-transform: uppercase !important;
 }
 
 .col-sm-10.titl {
