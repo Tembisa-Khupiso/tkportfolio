@@ -214,8 +214,9 @@ a:focus, a:hover {
   max-width: 24%;
 }
 
-a.typewrite.cntct {
+a.typewrite.cntact {
     text-align: center;
+    font-size: 15px;
     color: #d24600 !important;
 }
 
