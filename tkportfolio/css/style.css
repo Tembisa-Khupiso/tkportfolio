@@ -216,9 +216,9 @@ a:focus, a:hover {
 
 a.typewrite.cntact {
     text-align: center;
-    font-weight: 600 !important;
-    color: #d24600 !important;
     font-size: 15px !important;
+    color: #d24600 !important;
+    font-weight: 600 !important;
 }
 
 p.para a {
