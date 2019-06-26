@@ -165,12 +165,11 @@ div#custom-transitions {
 }
 
 a.typewrite {
-  color: #d24600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-   /* For Safari 3.1 to 6.0 */
-  font-size: 22px;
-  font-weight: normal;
+    color: #d24600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 a.typewrite.home {
