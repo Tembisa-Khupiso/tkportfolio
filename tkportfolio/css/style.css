@@ -90,6 +90,7 @@ section.hom {
 
 .col-sm-8.work {
   float: right; 
+  padding: 0px;
 }
 .col-sm-8.nav {
   display: block;
