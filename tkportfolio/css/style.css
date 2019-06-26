@@ -88,6 +88,9 @@ section.hom {
     padding: 0px 30px !important;
 }
 
+.col-sm-8.work {
+  float: right; 
+}
 .col-sm-8.nav {
   display: block;
   height: 60px;
