@@ -137,6 +137,10 @@ h1.title {
     font-family: serif;
 }
 
+div#custom-transitions {
+    float: right !important;
+}
+
 .col-sm-6.cntct1 {
   text-align: center;
 }
