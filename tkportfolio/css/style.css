@@ -182,6 +182,15 @@ a.typewrite.home {
   font-weight: 600;
 }
 
+a.typewrite.cntct {
+  color: #ea4e00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 a.typewrite.wrk {
     font-size: 30px;
     font-weight: 600;
