@@ -169,7 +169,7 @@ a.typewrite {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 a.typewrite.home {
