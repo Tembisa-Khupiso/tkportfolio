@@ -327,7 +327,7 @@ header {
 }
 
 .active {
-  color: #313131 !important;
+    color: #ffffff !important;
 }
 
 .active:hover {
