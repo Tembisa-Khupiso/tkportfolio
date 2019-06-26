@@ -238,9 +238,9 @@ p.para-cntct a {
 }
 
 p.para-address {
-  font-size: 15px !important;
-  padding: 6px 0px 6px 25px;
-  color: #313131;
+    font-size: 15px !important;
+    padding: 6px 0px 6px 25px;
+    color: #d24600 !important;
 }
 
 p.para-title {
