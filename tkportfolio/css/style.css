@@ -74,7 +74,7 @@ p {
 
 section {
   width: 95%;
-  margin: 12.5% auto !important;
+  margin: 2.5% auto !important;
 }
 
 .col-sm-8.abt {
@@ -201,7 +201,7 @@ section.contact {
 }
 
 section.about {
-  height: 60vh;
+  height: 20vh;
 }
 
 a:focus, a:hover {
