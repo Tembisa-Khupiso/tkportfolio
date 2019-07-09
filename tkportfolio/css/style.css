@@ -46,7 +46,7 @@ section:after {
 /* Style the footer */
 footer {
   font-family: auto;
-  background-color: #a9002f;
+  background-color: #8c8c8c;
   padding: 10px;
   text-align: center;
   color: #000000;
@@ -182,7 +182,7 @@ a.typewrite.home {
 }
 
 a.typewrite.cntct {
-  color: #8c8c8c;
+  color: #8c8c8c !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: right;
@@ -229,7 +229,7 @@ p.para a {
 p.para-cntct {
     font-size: 15px !important;
     padding: 6px 0px 6px 25px;
-    color: #8c8c8c;
+    color: #8c8c8c !important;
 }
 
 p.para-cntct a {
