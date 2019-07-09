@@ -49,7 +49,7 @@ footer {
   background-color: #a9002f;
   padding: 10px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -126,7 +126,7 @@ p.copyright {
 
 p.paragraph {
   font-size: 17px;
-  color: #313131 !important;
+  color: #8c8c8c !important;
   font-family: serif;
   letter-spacing: 2px;
 }
@@ -182,7 +182,7 @@ a.typewrite.home {
 }
 
 a.typewrite.cntct {
-  color: #8c8c8c;
+  color: #a9002f;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: right;
@@ -216,7 +216,7 @@ a:focus, a:hover {
 a.typewrite.cntact {
     text-align: center;
     font-size: 15px !important;
-    color: #8c8c8c !important;
+    color: #a9002f !important;
     font-weight: 600 !important;
 }
 
@@ -229,7 +229,7 @@ p.para a {
 p.para-cntct {
     font-size: 15px !important;
     padding: 6px 0px 6px 25px;
-    color: #8c8c8c;
+    color: #313131;
 }
 
 p.para-cntct a {
