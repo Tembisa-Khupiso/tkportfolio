@@ -182,7 +182,7 @@ a.typewrite.home {
 }
 
 a.typewrite.cntct {
-  color: #a9002f;
+  color: #8c8c8c;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: right;
@@ -216,7 +216,7 @@ a:focus, a:hover {
 a.typewrite.cntact {
     text-align: center;
     font-size: 15px !important;
-    color: #a9002f !important;
+    color: #8c8c8c !important;
     font-weight: 600 !important;
 }
 
@@ -229,7 +229,7 @@ p.para a {
 p.para-cntct {
     font-size: 15px !important;
     padding: 6px 0px 6px 25px;
-    color: #313131;
+    color: #8c8c8c;
 }
 
 p.para-cntct a {
