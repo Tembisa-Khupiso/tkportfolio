@@ -109,6 +109,7 @@ section.hom {
   letter-spacing: 5px;
   text-transform: uppercase;
   text-decoration: none !important;
+  margin: 0 14px;
 }
 
 .nav a:hover {
@@ -150,8 +151,8 @@ div#custom-transitions {
 }
 
 .col-sm-4.cntct2 {
-  text-align: left;
-  padding: 35px 0 5px;
+  text-align: right;
+  padding: 35px 30px 10px 0px;
 }
 
 .col-sm-3.cntct3 {
